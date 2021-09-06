@@ -41,7 +41,7 @@ if(!author) return <div>Loading...</div>
                 Hey there. I'm{" "}
                 <span className="text-green-100">{author.name}</span>
               </h1>
-              <BlockContent blocks={author.bio} projectId="z7vgv1d9" dataset="production"/>
+              <BlockContent className="text-green-100" blocks={author.bio} projectId="z7vgv1d9" dataset="production"/>
             </div>
           </section>
         </div>
